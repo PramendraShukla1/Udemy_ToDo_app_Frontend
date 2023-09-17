@@ -1,0 +1,27 @@
+:root{
+    --body_background:white;
+    --body_color:black;
+    --button_color:black;
+    --button_text_color:white;
+    --linear_first_gradient:#a8edea;
+    --linear_second_gradient:#fed6e3;
+    --card_head_color:#696969;
+    --card_body_color:white;
+    --card_border_color:black;
+  
+}
+
+[data-theme="dark"]{
+    --body_background:#555555;
+    --body_color:white;
+    --button_color:white;
+    --button_text_color:black;
+    --linear_first_gradient:#555555;
+    --linear_second_gradient:#696969;
+    --card_head_color:white;
+    --card_body_color:#696969;
+    --card_border_color:white;
+   
+}
+
+

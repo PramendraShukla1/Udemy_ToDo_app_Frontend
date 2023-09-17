@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.create-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-image: linear-gradient(
+    111.4deg,
+    var(--linear_first_gradient) 6.5%,
+    var(--linear_second_gradient) 93.2%
+  );
+}
+
+.create-task h3 {
+  font-size: 54px;
+  margin-bottom: 35px;
+  color: var(--body_color);
+}
+.create-task button {
+  height: 50px;
+  width: auto;
+  font-size: 23px;
+  background-color: var(--button_color);
+  color: var(--button_text_color);
+}
+.dark-button {
+  margin-bottom: 20px;
+}
+.tool-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 30px;
+}
+.card-comp h5 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(  --card_head_color);
+  margin-bottom: 30px;
+}
+.card-comp h6{
+    color: var(--card_head_color);
+}
+.card-comp p{
+    color: var(--card_head_color);
+}
+.card-body{
+    background-color: var(--card_body_color) ;
+    border: 1px solid var( --card_border_color);
+}
+
+.card-date {
+  position: relative;
+  bottom: 20px;
+}
+
+.card-comp p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.card-comp button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-comp {
+  height: 50px;
+}
+
+body{
+  background-color: var(--body_background);
+}
+
+.card-row {
+  margin: 20px;
+}
+.no-tasks img {
+  height: 300px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
